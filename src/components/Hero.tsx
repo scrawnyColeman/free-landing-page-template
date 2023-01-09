@@ -2,9 +2,9 @@ import React from "react";
 
 const Hero: React.FC = () => (
   <header>
-    <section className="mb-16 overflow-hidden">
+    <section className="mb-16 overflow-hidden ">
       <div
-        className="relative h-screen overflow-hidden bg-cover bg-no-repeat"
+        className="relative h-[800px] overflow-hidden bg-cover bg-no-repeat"
         style={{
           backgroundPosition: "50%",
           backgroundImage: "url('/bg.jpg')",

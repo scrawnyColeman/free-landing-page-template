@@ -3,7 +3,7 @@ import React from "react";
 import SectionHeader from "./SectionHeader";
 
 const Testimonials = () => (
-  <section id="testimonials" className="container mx-auto mb-16">
+  <section id="testimonials" className="container mx-auto mb-16 px-4">
     <SectionHeader>Hear what our clients are saying</SectionHeader>
     <div className="mx-auto max-w-screen-xl px-4 py-8 text-center lg:py-16 lg:px-6">
       <figure className="mx-auto max-w-screen-md">

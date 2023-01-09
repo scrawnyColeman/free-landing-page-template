@@ -1,9 +1,8 @@
-import Image from "next/image";
 import React from "react";
 import SectionHeader from "./SectionHeader";
 
 const Pricing: React.FC = () => (
-  <section id="pricing" className="container mx-auto mb-16">
+  <section id="pricing" className="container mx-auto mb-16 px-4">
     <SectionHeader>Pricing</SectionHeader>
 
     <div className="grid gap-6 lg:grid-cols-3 lg:gap-x-12">
