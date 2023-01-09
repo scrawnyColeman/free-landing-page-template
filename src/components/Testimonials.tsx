@@ -27,7 +27,7 @@ const Testimonials = () => (
             </div>
           </div>
           <div className="flex items-center">
-            <div className="pr-3 font-medium ">John S</div>
+            <div className="ml-3 pr-3 font-medium">John S</div>
           </div>
         </figcaption>
       </figure>
