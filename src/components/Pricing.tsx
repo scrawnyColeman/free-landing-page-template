@@ -2,31 +2,29 @@ import Image from "next/image";
 import React from "react";
 import SectionHeader from "./SectionHeader";
 
-const Pricing: React.FC<{}> = ({}) => {
-  return (
-    <section id="pricing" className="container mx-auto mb-16">
-      <SectionHeader>Pricing</SectionHeader>
+const Pricing: React.FC = () => (
+  <section id="pricing" className="container mx-auto mb-16">
+    <SectionHeader>Pricing</SectionHeader>
 
-      <div className="grid gap-6 lg:grid-cols-3 lg:gap-x-12">
-        <Plan
-          title="Online Coaching"
-          price="£50/month"
-          url="https://typeform.com"
-        />
-        <Plan
-          title="Member Site"
-          price="£7.50/month"
-          url="https://thomashutchinsonwebdev.com"
-        />
-        <Plan
-          title="Consulation (1 Hour)"
-          price="Free"
-          url="https://calendly.com"
-        />
-      </div>
-    </section>
-  );
-};
+    <div className="grid gap-6 lg:grid-cols-3 lg:gap-x-12">
+      <Plan
+        title="Online Coaching"
+        price="£50/month"
+        url="https://typeform.com"
+      />
+      <Plan
+        title="Member Site"
+        price="£7.50/month"
+        url="https://thomashutchinsonwebdev.com"
+      />
+      <Plan
+        title="Consulation (1 Hour)"
+        price="Free"
+        url="https://calendly.com"
+      />
+    </div>
+  </section>
+);
 
 const Plan: React.FC<{ title: string; price: string; url: string }> = ({
   title,
