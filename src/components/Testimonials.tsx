@@ -9,9 +9,9 @@ const Testimonials = () => (
       <figure className="mx-auto max-w-screen-md">
         <blockquote>
           <p className="text-2xl font-medium leading-normal">
-            "Fantastic service. I'm in the shape of my life and I have Arbitrary
-            Coaching Name (sorry. I couldn't think of a name 😬) to thank for
-            it"
+            &quot;Fantastic service. I&apos;m in the shape of my life and I have
+            Arbitrary Coaching Name (sorry. I couldn&apos;t think of a name 😬)
+            to thank for it&quot;
           </p>
         </blockquote>
         <figcaption className="mt-6 flex items-center justify-center">
