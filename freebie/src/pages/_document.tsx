@@ -29,13 +29,8 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>
-          <link
-            href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Comfortaa:wght@400;600&family=Montserrat:wght@400;600&family=Nunito:wght@200;300;400;600&family=Poppins:wght@200;400;600&family=Sriracha&display=swap"
-            rel="stylesheet"
-          />
-        </Head>
-        <body>
+        <Head/>
+        <body className="bg-[#1b1b1b] text-white">
           <Main />
           <NextScript />
         </body>
